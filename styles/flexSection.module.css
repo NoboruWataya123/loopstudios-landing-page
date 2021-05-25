@@ -1,0 +1,106 @@
+.flex_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flexitem{
+    flex: 1 1 300px;
+    flex: 0 1 300px;
+    margin: 1rem;
+    color: white;
+}
+
+.head{
+    text-align: center;
+    font-family: Inter;
+    text-transform: uppercase;
+}
+
+.images{
+    background-image: url(../public/mobile/image-curiosity.jpg);
+    width: 100%;
+    height: 8rem;
+    background-size:cover;
+    position: relative;
+}
+
+.images1{
+    background-image: url(../public/mobile/image-deep-earth.jpg);
+    width: 100%;
+    height: 8rem;
+    background-size: cover;
+    position: relative;
+}
+
+.images2{
+    background-image: url(../public/mobile/image-fisheye.jpg);
+    width: 100%;
+    height: 8rem;
+    background-size: cover;
+    position: relative;
+}
+
+.images3{
+    background-image: url(../public/mobile/image-from-above.jpg);
+    width: 100%;
+    height: 8rem;
+    background-size: cover;
+    position: relative;
+}
+
+.images4{
+    background-image: url(../public/mobile/image-grid.jpg);
+    width: 100%;
+    height: 8rem;
+    background-size: cover;
+    position: relative;
+}
+
+.images5{
+    background-image: url(../public/mobile/image-night-arcade.jpg);
+    width: 100%;
+    height: 8rem;
+    background-size: cover;
+    position: relative;
+}
+
+.images6{
+    background-image: url(../public/mobile/image-pocket-borealis.jpg);
+    width: 100%;
+    height: 8rem;
+    background-size: cover;
+    position: relative;
+}
+
+.images7{
+    background-image: url(../public/mobile/image-soccer-team.jpg);
+    width: 100%;
+    height: 8rem;
+    background-size: cover;
+    position: relative;
+}
+
+#text{
+    position: absolute;
+    top: 3rem;
+    left: 1rem;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: white;
+    width: 10rem;
+}
+
+.btn{
+    align-items: center;
+    width: 8rem;
+    height: 2.5rem;
+    margin-left: 6rem;
+    margin-top: 1rem;
+    background-color: white;
+    text-transform: uppercase;
+    font-family: Lexend Deca;
+    letter-spacing: 0.2rem;
+}
